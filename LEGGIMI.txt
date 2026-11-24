@@ -1,0 +1,3 @@
+ARCHIVIO 730 - prototipo PWA
+Per installare: pubblicare i file della cartella su un hosting statico HTTPS (es. Netlify Drop). Aprire l'indirizzo HTTPS in Safari su iPhone, Condividi > Aggiungi alla schermata Home. Aprire online una prima volta. Non caricare documenti fiscali sull'hosting: solo i file del programma.
+I documenti sono conservati in IndexedDB sul dispositivo, non sincronizzati. Esportare backup JSON periodici in File/iCloud. Il backup contiene dati sensibili in chiaro. Importare backup per ripristinare. I PDF originali sono conservati; le foto sono convertite localmente in PDF. Non sono implementati OCR, ritaglio automatico, Face ID o salvataggio automatico iCloud. Per importazioni multiple, importi lasciati vuoti. Prototipo non collaudato su iPhone.
